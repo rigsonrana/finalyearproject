@@ -1,0 +1,50 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+.user-comment-card {
+  background: #fff;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 1rem .5rem;
+  margin-bottom: 5px;
+}
+
+
+.inner_details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h4.user__name {
+  margin-top: 5px;
+  margin-bottom: .5rem;
+  
+  text-transform: capitalize;
+}
+
+.user__comment {
+  flex: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #616161;
+}
+
+.user__comment p {
+  margin: 0;
+}
+
+img.user-avatar {
+
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #ddd;
+  
+}
+
+ */

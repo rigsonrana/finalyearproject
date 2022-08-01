@@ -1,0 +1,71 @@
+.container textarea {
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    height: 10vh;
+    width: 95%;
+    background-color: #f6f6f6;
+    font-family: Poppins,
+    Arial,
+    Verdana;
+    overflow: hidden;
+    padding: 10px 10px 10px 20px;
+    font-size: 1em;
+    margin: 5px 5px 5px 5px;
+    resize: none;
+    
+}
+
+.sendcommentbox{
+    display: flex;
+    align-items: center;
+    justify-content: center
+    ;
+    padding-bottom: 20px;
+    border-bottom: #dadada dotted 1px;
+}
+
+
+#app{
+    height: auto;
+}
+.container {
+  width: 50vw;
+    margin: 0px auto;
+    background: #fff;
+    border-radius: 8px 8px 0 0;
+    padding: 1em 2em;
+}
+
+.comment {
+    display: block;
+    
+    width: 45vw;
+    margin-left:3em;
+}
+
+.commentClicked {
+   
+    min-height: 0px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+button.primaryContained {
+    cursor: pointer;
+    text-align: center;
+    background-color: #303030;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 5px 5px 5px;
+    margin-top: 10px;
+    height: 10vh;
+    border-radius: 16px;
+}
+
+button.primaryContained:hover{
+
+    background-color: #0d3a8e;
+}

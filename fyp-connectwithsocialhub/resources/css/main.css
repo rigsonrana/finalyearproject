@@ -1,0 +1,696 @@
+/*============== MAIN SETTINGS ============*/
+
+body {
+    margin: 0 auto 2em auto;
+    width: 100vw;
+    font-family: Poppins, Arial, Verdana;
+    font-size: 18px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+input {
+    font-family: Poppins, Arial, Verdana;
+    width: 100%;
+    font-size: 18px;
+    padding: 2px;
+}
+
+button {
+    font-family: Poppins, Arial, Verdana;
+    font-size: 18px;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+span {
+    color: rgb(227, 39, 39);
+}
+
+.required {
+    color: rgb(227, 39, 39);
+}
+
+.container {
+    margin: 0 auto;
+    width: 100vw;
+}
+
+
+/*============== NAVBAR SETTINGS ============*/
+
+.usernav {
+    background-color: #14289c;
+
+    overflow: auto;
+    width: 100vw;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+   
+    z-index: 100;
+    
+}
+
+.usernav ul {
+    float: right;
+    margin: 0;
+   
+    flex: 1;
+    
+}
+
+.usernav ul li {
+    display: inline;
+}
+
+.usernav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 15px;
+}
+
+.usernav ul li a:hover {
+    background-color: #303030;
+}
+
+
+/* Search */
+
+.usernav .globalsearch {
+    margin: 0;
+    width: 40vw;
+    background-color: #2219cb;
+    
+}
+
+.usernav .globalsearch input[type=text] {
+    border: none;
+    width: auto;
+    height: 34px;
+    padding: 2px 10px 2px 10px;
+    background-color: #f6f6f6;
+    border-radius: 0 0 0 0;
+    border: none;
+    width: 15em;
+    outline: none;
+}
+
+.usernav .globalsearch input[type=submit] {
+    background-color: #1411dc;
+    color: #ffffff;
+    border: none;
+    padding: 2px 10px 2px 10px;
+    width: 6em;
+    height: 35px;
+    border-radius: 0 15px  15px 0;
+ 
+    
+}
+
+.usernav .globalsearch input[type=submit]:hover {
+    background-color: #0d3a8e;
+    color: white;
+}
+
+.usernav .globalsearch select {
+    font-size: 18px;
+    margin-left: 5px;
+    padding: 2px 10px 2px 10px;
+    vertical-align: 0px;
+    height: 35px;
+    width: 8em;
+    margin-top: 10px;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+  
+}
+
+/*============== CAPTION BOX  ============*/
+
+.captionbox{
+border-radius: 15px;
+outline: none;
+border: none;
+height: 20vh;
+width: 95%;
+background-color: #f6f6f6;
+font-family: Poppins,Arial,Verdana;
+overflow: hidden;
+padding: 10px ;
+font-size: 1em;
+margin: 10px 5px 5px 5px;
+resize: none;
+}
+
+/*============== Button ============*/
+
+.inputfields {
+    width: 95%;
+    height: 1.8em;
+    display: flex;
+    padding: 5px 20px 5px 20px;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+background-color: #f6f6f6;
+
+}
+/*============== Comment SETTINGS ============*/
+
+.commentsbox{
+    height: auto;
+    margin:auto;
+   
+}
+.comment-container{
+    padding: 2em;
+    width: 50vw;
+    
+    height: auto;
+    background-color: #ffffff;
+    margin:auto;
+    
+    border-radius: 0 0 8px 8px;
+   
+    text-align: start;
+    overflow-wrap: break-word;
+    border-bottom: #dbdbdb solid 1px;
+    
+   
+}
+.commentandtag{
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+}
+
+.commentheader {
+display: flex;
+align-items: center;
+justify-content: start;
+
+}
+
+.comment {
+font-family: Poppins,
+Arial,
+Verdana;
+font-size: 1em;
+color: #303030;
+opacity: 1;
+margin: 0;
+padding: 5px;
+text-align: start;
+width: 50vw;
+overflow-wrap: break-word;
+}
+.commentedtag{
+
+font-family: Poppins,
+Arial,
+Verdana;
+color: #303030;
+font-weight: 400;
+font-size: 0.8em;
+margin-bottom: 0;
+margin-top: -8px;
+opacity: 0.8;
+display: inline-block;
+vertical-align: 12px;
+text-decoration: none;
+}
+  
+
+
+/*============== POSTS SETTINGS ============*/
+
+
+
+
+
+/* General Layout of Post */
+.profilepic{
+height: 3em;
+width: 3em;
+    border-radius: 50%;
+}
+
+
+
+
+.public{
+
+    font-family: Poppins,Arial,Verdana;
+    font-size: 0.9em;
+    color: #303030;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+
+.postedtime{
+    font-family: Poppins,Arial,Verdana;
+    font-size: 0.8em;
+    opacity: 0.6;
+    color: #303030;
+    margin: -5px 0 0 0;
+    padding: 0;
+  
+}
+.post,
+.createpost {
+background-color: lightgray;
+/* box-shadow: 0 0 5px #bcbcbc; */
+margin: auto;
+margin-top: 2em;
+width: 50vw;
+height: auto;
+padding: 1em 2em;
+border-radius: 16px;
+}
+
+
+/* Create Post Control */
+
+.createpostbuttons {
+    width: 100%;
+    height: 2.5em;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+   
+}
+
+.createpostbuttons img {
+    display: inline-block;
+    width: 1.9em;
+    height: 1.9em;
+    margin-bottom: 0;
+    padding: 2px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    margin-right: 0.5em;
+    
+    
+}
+
+.createpostbuttons label {
+    cursor: pointer;
+}
+
+.createpostbuttons input[type="file"] {
+    display: none;
+    
+}
+
+.createpostbuttons input[type=submit] {
+    width: 10vw;
+    border-radius: 8px;
+    border: none;
+}
+
+.createpostbuttons input[type=submit]:hover {
+    background-color: #0d3a8e;}
+
+
+/* Post */
+
+.post .public {
+    float: right;
+    text-align: start;
+    width: auto;
+}
+
+.caption{
+    font-family: Poppins,Arial,Verdana;
+    font-size: 1em;
+    color: #303030;   
+    opacity: 0.9;
+    margin: 0;
+    padding: 5px;
+    text-align: start;
+    width: 50vw;
+    overflow-wrap: break-word;
+}
+
+
+/*============== HEADINGS AND LINKS ============*/
+
+h1 {
+    font-family: Poppins, Arial, Verdana;
+    color: #303030;
+    font-weight: 800;
+    text-align: center;
+}
+
+h2 {
+    font-family: Poppins,
+    Arial,
+    Verdana;
+    color: #303030;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+.postheader{
+
+    display: flex ;
+    align-items: center;
+    justify-content: start;
+}
+.nametime{
+    display: flex ;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+h3,
+a.profilelink {
+    font-family: Poppins,
+    Arial,
+    Verdana;
+    color: #303030;
+    font-weight: 600;
+    font-size: 120%;
+    margin-bottom: 0;
+    
+    margin-top: 0;
+  
+    /* vertical-align: 12px; */
+    text-decoration: none;
+   
+}
+h4{
+    font-family: Poppins, Arial, Verdana;
+    color: #303030;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+    opacity: 0.8;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: 12px;
+    text-decoration: none;
+}
+
+a.profilelink:hover {
+   color: #0d3a8e;
+}
+
+
+/* Horizontal Line after H2 */
+
+hr {
+    /* margin-bottom: 30px;
+    margin-top: 0px;
+    border: 1px solid rgb(22, 22, 22); */
+
+    display: none;
+}
+
+
+/*============== TAB SETTINGS ============*/
+
+div.tab {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+div.tab button {
+    background-color: #090909;
+    border: none;
+    outline: none;
+    color: white;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+}
+
+div.tab button:hover {
+    background-color: #303030;
+}
+
+
+/*==============DEFAULT TAB SETTINGS ============*/
+
+div.tab button.active {
+    background-color: #0d3a8e;
+}
+
+#signup {
+    display: none;
+}
+
+
+/*============== SUBMIT BUTTONS ============*/
+
+input[type=submit] {
+    cursor: pointer;
+background-color: #303030;
+color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.container input[type=submit] {
+background-color: #303030;}
+
+.container input[type=submit]:hover {
+    background-color: #0d3a8e;}
+
+
+/*============= SPECIFIC BUTTONS MODIFICATION ========*/
+
+input[type=checkbox] {
+    width: fit-content;
+}
+
+
+/*============= FRIENDS FRAMES ========*/
+
+.frame {
+    width: 200px;
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    margin: 5px;
+}
+
+
+/*============= SUB CONTAINERS ========*/
+
+.userquery {
+    background-color: lightgray;
+   border-radius: 16px;
+    margin: auto;
+    width: 50vw;
+    padding: 20px 20px 0px 20px;
+    overflow: auto;
+    text-align: center;
+}
+
+.userquery a {
+    text-decoration: none;
+}
+
+.userquery a:hover {
+    text-decoration: underline;
+}
+
+
+/*============= DISABLED BUTTONS ========*/
+
+input:disabled {
+    cursor: auto;
+}
+
+#special:hover {
+    background-color: #0d3a8e;
+}
+
+/* body {
+    background-color: #e9ebee;
+    font-family: San Francisco, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+} */
+
+.frame__container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 502px;
+    border: 1px solid #ced0d4;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.frame__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.frame__headline {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px 12px 0;
+    margin-bottom: 11px;
+}
+
+.headline__image {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+.headline__subtitle {
+    color: #90949c;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: 16.08px;
+    margin: 0;
+}
+
+.headline__title {
+    color: #0d3a8e;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.24px;
+    line-height: 19.32px;
+    word-wrap: break-word;
+    margin: 0 0 2px;
+}
+
+.headline__world {
+    height: 12px;
+    width: 12px;
+}
+
+.frame__content {
+    margin: 7px 12px;
+}
+
+.frame__text {
+    margin: 0;
+}
+
+.frame__text--large {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.frame__text--small {
+    margin: 0;
+    font-size: 14px;
+    line-height: 19.32px;
+}
+
+.frame__footer {
+    display: flex;
+    border-top: 1px solid #e1e2e3;
+    padding: 4px 12px;
+}
+
+.text__social {
+    color: #7f7f7f;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 0;
+}
+
+.footer__likes,
+.footer__comments,
+.footer__share,
+.footer__post-as {
+    display: flex;
+    padding: 4px 0 4px;
+    margin-right: 20px;
+}
+
+.footer__image {
+    height: 14px;
+    margin: 0 6px -3px 0;
+}
+
+.footer__image--not-first {
+    margin-left: 9px;
+}
+
+.footer__post-as-image {
+    height: 16px;
+}
+
+.footer__post-as {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+.like-button {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 18px;
+    margin-left: 20px;
+}
+
+.like-button::before {
+    font-size: 2em;
+    color: #000;
+    content: '♥';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.like-button::after {
+    font-size: 2em;
+    color: #ff3252;
+    content: '♥';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.2s;
+}
+
+.like-button.liked::after {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.comment-button {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    display: inline-block;
+}
